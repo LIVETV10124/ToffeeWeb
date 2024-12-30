@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.channel-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.channel-card:hover {
+  transform: scale(1.05);
+}
+
+.channel-card img {
+  width: 100%;
+  height: auto;
+}
+
+.channel-card h3 {
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.player-wrapper {
+  padding: 1rem;
+  text-align: center;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
