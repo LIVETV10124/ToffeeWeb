@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live TV Channels</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live TV</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="live-tv-container">
-        <h1>Live TV Channels</h1>
-        <div id="channels-grid" class="grid-view"></div>
-        <div id="player-container">
-            <video id="video-player" controls autoplay></video>
-        </div>
+  <header>
+    <h1>Live TV</h1>
+  </header>
+  <main>
+    <div class="channel-grid" id="channelGrid"></div>
+    <div class="player-wrapper">
+      <video id="videoPlayer" controls></video>
     </div>
-    <script src="script.js"></script>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
